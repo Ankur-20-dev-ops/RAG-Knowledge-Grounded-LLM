@@ -139,9 +139,8 @@ All settings are available in the sidebar at runtime:
 
 ##  Screenshots
 
-> Add screenshots of your running app here.
-> `<img width="1893" height="910" alt="image" src="https://github.com/user-attachments/assets/a2d0e1bc-15d7-4c63-bb49-54154af0dd98" />
-`
+> <img width="1893" height="910" alt="Screenshot 2026-05-17 201426" src="https://github.com/user-attachments/assets/ac5b9d1a-0c3a-4820-99c5-dda3fc43c880" />
+
 
 ---
 
