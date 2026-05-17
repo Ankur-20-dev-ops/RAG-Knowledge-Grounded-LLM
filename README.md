@@ -1,4 +1,4 @@
-# ⬡ NeuralDoc — RAG Knowledge Assistant
+#  NeuralDoc — RAG Knowledge Assistant
 
 > A production-grade, knowledge-grounded RAG (Retrieval-Augmented Generation) chatbot that answers questions from your own PDF documents — with hallucination detection, streaming responses, model comparison, and PDF export.
 
@@ -10,24 +10,24 @@
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---|---|
-| 📄 **PDF Uploader** | Drag & drop PDFs directly in the browser — auto chunked, embedded & indexed |
-| ⚡ **Streaming Responses** | Token-by-token output like ChatGPT |
-| 🧠 **Conversation Memory** | Remembers last 3 exchanges for follow-up questions |
-| 🔍 **Re-Ranker** | Retrieves 2× chunks, re-ranks by relevance before LLM call |
-| ✦ **Hallucination Detection** | Every answer verified against source context |
-| 📊 **Confidence Score** | Visual meter showing how well the answer is grounded |
-| ⚖ **Model Comparison** | Same question across 4 Groq models side by side |
-| 📂 **Document Selector** | Filter which PDFs to search per query |
-| 🕓 **Query History** | Click any past question to re-run it |
-| 📥 **Export as PDF** | Download full chat as a styled PDF report |
+|  **PDF Uploader** | Drag & drop PDFs directly in the browser — auto chunked, embedded & indexed |
+|  **Streaming Responses** | Token-by-token output like ChatGPT |
+|  **Conversation Memory** | Remembers last 3 exchanges for follow-up questions |
+|  **Re-Ranker** | Retrieves 2× chunks, re-ranks by relevance before LLM call |
+| **Hallucination Detection** | Every answer verified against source context |
+|  **Confidence Score** | Visual meter showing how well the answer is grounded |
+|  **Model Comparison** | Same question across 4 Groq models side by side |
+|  **Document Selector** | Filter which PDFs to search per query |
+|  **Query History** | Click any past question to re-run it |
+|  **Export as PDF** | Download full chat as a styled PDF report |
 
 ---
 
-## 🗂 Project Structure
+##  Project Structure
 
 ```
 neuraldoc/
@@ -43,7 +43,7 @@ neuraldoc/
 
 ---
 
-## 🚀 Quickstart
+##  Quickstart
 
 ### 1. Clone the repo
 ```bash
@@ -79,7 +79,7 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Layer | Tool |
 |---|---|
@@ -93,7 +93,7 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ```
 User Query
@@ -125,7 +125,7 @@ Rendered in UI with sources, badge, meter
 
 ---
 
-## ⚙ Configuration
+##  Configuration
 
 All settings are available in the sidebar at runtime:
 
@@ -137,14 +137,14 @@ All settings are available in the sidebar at runtime:
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 > Add screenshots of your running app here.
 > `![Chat UI](screenshots/chat.png)`
 
 ---
 
-## 🔒 Security Notes
+##  Security Notes
 
 - Never commit your `.env` file — it's in `.gitignore`
 - The `chroma_db/` folder and `docs/` folder are also git-ignored
@@ -152,7 +152,7 @@ All settings are available in the sidebar at runtime:
 
 ---
 
-## 🗺 Roadmap
+##  Roadmap
 
 - [ ] Chunk highlighter — highlight exact sentence used in answer
 - [ ] Evaluation dashboard — benchmark accuracy over preset questions
@@ -162,12 +162,12 @@ All settings are available in the sidebar at runtime:
 
 ---
 
-## 📄 License
+##  License
 
 MIT License — free to use, modify, and distribute.
 
 ---
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 Built with [LangChain](https://langchain.com), [Groq](https://groq.com), [ChromaDB](https://www.trychroma.com), and [Streamlit](https://streamlit.io).
